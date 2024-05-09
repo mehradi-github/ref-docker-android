@@ -1,5 +1,4 @@
-pkg update -y
-pkg install wget qemu-system-x86-64-headless qemu-utils -y
+pkg install qemu-system-x86-64-headless qemu-utils -y
 cd $HOME
 mkdir alpine-linux
 cd alpine-linux/
