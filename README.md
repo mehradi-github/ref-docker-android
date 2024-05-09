@@ -43,7 +43,7 @@ chmod +x ./alpine.sh
 apk update -y
 apk add docker
 
-rc-update add docker defualt
+rc-update add docker default
 
 service docker start
 service docker status
